@@ -1,5 +1,5 @@
-﻿Build started 6/12/2011 5:27:23 AM.
-     1>Project "C:\Users\d0c\Desktop\bootloader\BootLoader\BootLoader.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/6/2014 1:27:13 AM.
+     1>Project "F:\Programming\Fun-Bootloader\BootLoader\BootLoader.vcxproj" on node 2 (Build target(s)).
      1>Build:
          build.bat
          bootmain.cpp
@@ -8,23 +8,23 @@
          
          Out of memory
          Microsoft (R) Macro Assembler Version 6.15.8803
+          Assembling: StartPoint.asm
          	Patched for you by promethee [ECL] in the year 2001 - enjoy
          Copyright (C) Microsoft Corp 1981-2000.  All rights reserved.
          
-          Assembling: StartPoint.asm
          
          Microsoft (R) Segmented Executable Linker  Version 5.60.339 Dec  5 1994
          Copyright (C) Microsoft Corp 1984-1993.  All rights reserved.
          
-     1>LINK : warning L4045: name of output file is 'StartPoint.com'
-     1>LINK : warning L4055: start address not equal to 0x100 for /TINY
+     1>LINK : fatal error L1093: bootmain.obj : object file not found
          '#del' is not recognized as an internal or external command,
          operable program or batch file.
          A subdirectory or file bin\Boot already exists.
-         C:\Users\d0c\Desktop\bootloader\BootLoader\StartPoint.com
-                 1 file(s) moved.
-     1>Done Building Project "C:\Users\d0c\Desktop\bootloader\BootLoader\BootLoader.vcxproj" (build target(s)).
+         A duplicate file name exists, or the file
+         cannot be found.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "build.bat" exited with code 1.
+     1>Done Building Project "F:\Programming\Fun-Bootloader\BootLoader\BootLoader.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.18
+Time Elapsed 00:00:00.24
